@@ -34,7 +34,6 @@ print('JSON VALIDADO CORECTAMENTE')
 con = pymysql.connect(host = 'localhost', port = 3306,user = 'root',passwd = 'p4r4guaY',db = 'json2mysql')
 cursor = con.cursor()
 
-
 print('SE CONECTO CORRECTAMENTE A LA BASE DE DATOS LOCAL')
 
 # Se limpia primero la tabla para evitar Claves primarias duplicadas
